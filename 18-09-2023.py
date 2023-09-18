@@ -1,6 +1,14 @@
-# Sandbox ENV
+# Sandbox Test
 def sandbox():
-    print("Sandbox Environment")  
+    x = [2, 2.0, 3, 3.0, 4, 4.0]
+     
+    for i in x:
+        a = i ** 2
+        float_a = i ** 2.0
+        b = i * i
+
+        print(a, float_a)
+        print(b, "\n")
 
 
 # Calculate suggested snowboard length based on height
